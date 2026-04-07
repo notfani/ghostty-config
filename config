@@ -14,3 +14,13 @@ background-blur = 90
 
 copy-on-select = clipboard
 working-directory = ~/Dev
+
+## This is zshrc config part
+## if type brew &>/dev/null; then
+##  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+##
+##  autoload -Uz compinit
+##  compinit
+## fi
+##
+## eval "$(starship init zsh)"
